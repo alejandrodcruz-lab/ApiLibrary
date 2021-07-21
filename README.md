@@ -8,7 +8,7 @@ Api Libreria
                                       {
                                           "id": 2,
                                           "name": "The Best of Edgar Allan Poe",
-                                          "publicationDate": "21/07/2021",
+                                          "publicationDate": "2021-07-21",
                                           "language": "spanish",
                                           "publisher": "Saga",
                                           "genre": "horror",
