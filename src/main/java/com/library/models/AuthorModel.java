@@ -18,7 +18,7 @@ public class AuthorModel {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(unique = true, nullable = false)
-	private Integer id;
+	private Long id;
 	private String name;
 	private String surname;
 	private String nationality;
@@ -26,11 +26,11 @@ public class AuthorModel {
 	@OneToMany(mappedBy = "author")
 	private List<BookModel> BookModel;
 
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
