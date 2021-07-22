@@ -38,7 +38,7 @@ public class BookController {
 
 	// GET Obtener Libro por ID
 	@GetMapping(path="/{id}")
-	public Optional<BookModel> getUserById(@PathVariable("id") Long id) {
+	public Optional<BookModel> getBookById(@PathVariable("id") Long id) {
 		return bookservices.getBook(id);
 	}
 	
