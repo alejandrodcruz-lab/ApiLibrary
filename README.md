@@ -1,6 +1,7 @@
 # ApiLibrary
 Api Libreria
 
+LIBROS:
 * GET -> /books -> Obtener todos los libros
 * GET -> /books/{id}  -> Obtener un libro
 * POST -> /books -> Crear libro -> Enviar por BODY con formato:
@@ -21,3 +22,6 @@ Api Libreria
 
 * DELETE -> /books/{id} -> Desactivar un libro
 * DELETE -> /books/delete/{id} -> Eliminar libro de la Base
+
+AUTORES:
+* GET -> /authors -> Obtener todos los autores
