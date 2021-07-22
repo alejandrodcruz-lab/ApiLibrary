@@ -35,7 +35,7 @@ public class BookModel {
 	@ManyToOne
 	@JoinColumn(name = "author_id")
 	@JsonBackReference
-	private AuthorModel author;
+	private AuthorModel authormodel;
 
 	public Long getId() {
 		return id;

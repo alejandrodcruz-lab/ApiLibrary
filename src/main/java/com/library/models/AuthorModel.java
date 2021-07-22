@@ -23,7 +23,7 @@ public class AuthorModel {
 	private String surname;
 	private String nationality;
 
-	@OneToMany(mappedBy = "author")
+	@OneToMany(mappedBy = "authormodel") // Hace refencia a la variable de Books
 	private List<BookModel> BookModel;
 
 	public Long getId() {

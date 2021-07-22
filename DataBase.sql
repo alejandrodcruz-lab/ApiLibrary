@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `author` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Volcando datos para la tabla apilibrary.author: ~3 rows (aproximadamente)
+-- Volcando datos para la tabla apilibrary.author: ~0 rows (aproximadamente)
 DELETE FROM `author`;
 /*!40000 ALTER TABLE `author` DISABLE KEYS */;
 INSERT INTO `author` (`id`, `name`, `nationality`, `surname`) VALUES
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS `book` (
   CONSTRAINT `FKklnrv3weler2ftkweewlky958` FOREIGN KEY (`author_id`) REFERENCES `author` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Volcando datos para la tabla apilibrary.book: ~6 rows (aproximadamente)
+-- Volcando datos para la tabla apilibrary.book: ~0 rows (aproximadamente)
 DELETE FROM `book`;
 /*!40000 ALTER TABLE `book` DISABLE KEYS */;
 INSERT INTO `book` (`id`, `active`, `format`, `genre`, `language`, `name`, `price`, `publication_date`, `publisher`, `stock`, `author_id`) VALUES
