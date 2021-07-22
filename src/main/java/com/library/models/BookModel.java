@@ -1,5 +1,7 @@
 package com.library.models;
 
+import java.sql.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,7 +19,7 @@ public class BookModel {
 	private Long id;
 	
 	private String name;
-	private String publicationDate;
+	private Date publicationDate;
 	private String language;
 	private String publisher;
 	private String genre;
@@ -38,10 +40,10 @@ public class BookModel {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getPublicationDate() {
+	public Date getPublicationDate() {
 		return publicationDate;
 	}
-	public void setPublicationDate(String publicationDate) {
+	public void setPublicationDate(Date publicationDate) {
 		this.publicationDate = publicationDate;
 	}
 	public String getLanguage() {
